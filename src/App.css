@@ -24,6 +24,34 @@
   color: white;
 }
 
+.sidebar {
+  background-color: black;
+  color: white;
+  width: 200px;
+  padding: 20px;
+}
+
+.content {
+  background-color: white;
+  color: black;
+  flex: 1;
+  padding: 20px;
+}
+
+.button {
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
 .App-link {
   color: #61dafb;
 }
