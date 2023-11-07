@@ -1,15 +1,16 @@
 .testimonials-grid {
-    width: 100%;
+    width: 98%;
+    margin-left: 1%;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    grid-gap: 20px; /* Spacing between the cards */
+    grid-gap: 1%; /* Spacing between the cards */
     /* background-color: white;
     color: black; */
     /* width: 100%; */
 }
 
 .card {
-    padding: 20px;
+    padding: 2%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 

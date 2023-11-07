@@ -60,8 +60,8 @@ body {
 
 
 .testimonial-image {
-  width: 400px; /* Or any other fixed width */
-  height: 400px; /* Or any other fixed height */
+  width: 200px; /* Or any other fixed width */
+  height: 200px; /* Or any other fixed height */
   object-fit: cover; /* This will cover the area without stretching the image */
   border-radius: 50%; /* Optional: if you want round images */
   display: block;
@@ -90,8 +90,8 @@ body {
   align-content: center; 
   /* background-position: center center; */
   /* background-repeat: no-repeat; */
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
   object-fit: cover; 
   border-radius: 50%;
   display: block;
