@@ -1,70 +1,40 @@
-import logo from './logo.svg';
-import React from "react";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-
-import "./App.css";
+// App.js
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import AboutMe from './pages/AboutMe';
+import Projects from './pages/Projects';
+import Testimonials from './pages/Testimonials';
+import './assets/styles/App.css'; 
+// import townsend from './assets/images/IMG_6311.jpeg';
 
 function App() {
   return (
-    <Router>
-      <div style={{ display: "flex" }}>
-        <div className="sidebar">
-          <h2>My Portfolio</h2>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/about">About</Link>
-              </li>
-              <li>
-                <Link to="/projects">Projects</Link>
-              </li>
-            </ul>
-          </nav>
+    <div className="App">
+      <Header />
+      {/* <hr /> */}
+      {/* <div classname="testimonials-grid">
+        <div className="card">
+              <img src={townsend} alt="Dominique Parrish" className="testimonial-image" />
+              <div className="bio">Townsend Saunders</div>
+              <div className="testimonial">Data Scientist</div>
         </div>
-        <div className="content">
-          <Switch>
-            <Route path="/" exact>
-              <Home />
-            </Route>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/projects">
-              <Projects />
-            </Route>
-          </Switch>
-        </div>
-      </div>
-    </Router>
-  );
-}
+        </div> */}
+      {/* <div className='hero-background'> */}
+      <div className="hero-section"></div>
+      {/* </div> */}
+      {/* <hr />  Divider */}
+      <AboutMe />
 
-function Home() {
-  return (
-    <div>
-      <h1>Welcome to my portfolio!</h1>
-      <button className="button">Click Me</button>
-    </div>
-  );
-}
+      {/* <div className="waterfall"></div>  Waterfall Image */}
+      {/* <div className="project-split"></div> */}
+      <Projects />
+      {/* <hr />  Divider */}
+      
+      <Testimonials />
 
-function About() {
-  return (
-    <div>
-      <h1>About Me</h1>
-      <button className="button">Learn More</button>
-    </div>
-  );
-}
+      <Footer />
 
-function Projects() {
-  return (
-    <div>
-      <h1>My Projects</h1>
-      <button className="button">See More</button>
     </div>
   );
 }

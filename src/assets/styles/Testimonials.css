@@ -1,0 +1,30 @@
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 20px; /* Spacing between the cards */
+    /* background-color: white;
+    color: black; */
+    /* width: 100%; */
+}
+
+.card {
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+    /* width: 100%;
+    height: 90%; */
+    /* height: auto; */ 
+    margin-bottom: 15px;
+}
+
+.card .bio {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.card .testimonial {
+    font-size: 14px;
+    color: #555;
+}
