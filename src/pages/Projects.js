@@ -5,7 +5,7 @@ const Projects = () => {
     const [displayedCharacters, setDisplayedCharacters] = useState(0);
     const sectionRef = useRef(null);
 
-    const paragraph = "Projects projects projects…  My resume has the descriptions of everything thing you need to know about my professional experience.  So, instead of rehashing, let’s look at some personal endeavors!  Below you will find several streamlit apps I have created over the past year.  Some are more finished than others.  They range from helping women’s wrestlers on TeamUSA, to micronutrient reports on diet, resume helpers, and even budget planners for credit card users.  Each of these have been spur of the moment passion projects.  All are hosted on Streamlit’s community cloud which is free! Hooray! That also means that lack of activity can cause the app to go dormant… So, if this part of the website is down, I apologize, but I am too cheap to host them somewhere else!  Feel free to contact me about any of these projects personally if you are interested"
+    const paragraph = "Projects projects projects…  My resume has the descriptions of everything thing you need to know about my professional experience.  So, instead of rehashing, let’s look at some personal endeavors!  Below you will find several streamlit apps I have created over the past year.  Some are more finished than others.  They range from helping women’s wrestlers on TeamUSA, to micronutrient reports on diet, resume helpers, and even budget planners for credit card users.  Each of these have been spur of the moment passion projects.  All are hosted on Streamlit’s community cloud which is free! Hooray! That also means that lack of activity can cause the app to go dormant… So, if this part of the website is down, I apologize, but I am too cheap to host them somewhere else!  Feel free to contact me about any of these projects personally if you are interested."
     const handleScroll = () => {
         setScrollY(window.scrollY);
     };
@@ -21,7 +21,7 @@ const Projects = () => {
         const distanceFromTop = scrollY + windowHeight - sectionTop;
         const totalScrollableHeight = windowHeight + totalHeight;
 
-        const percentageScrolled = Math.min(1, distanceFromTop / totalScrollableHeight*6);
+        const percentageScrolled = Math.min(1, distanceFromTop / totalScrollableHeight*5);
         const newDisplayedCharacters = Math.round(paragraph.length * percentageScrolled);
 
         setDisplayedCharacters(newDisplayedCharacters);

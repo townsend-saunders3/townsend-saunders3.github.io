@@ -7,11 +7,12 @@ body {
   /* color: white; */
 }
 .projects-paragraph-section{
-  width: 32%;
-  margin-left: 34%;
+  width: 90%;
+  margin-left: 5%;
   /* margin-right: 15%; */
   /* text-align: left; */
-  text-justify: left;
+  text-align: left;
+  
   font-size: 14pt;
   font-weight:400;
   color:darkslategray;
@@ -60,8 +61,8 @@ body {
 
 
 .testimonial-image {
-  width: 200px; /* Or any other fixed width */
-  height: 200px; /* Or any other fixed height */
+  width: 400px; /* Or any other fixed width */
+  height: 400px; /* Or any other fixed height */
   object-fit: cover; /* This will cover the area without stretching the image */
   border-radius: 50%; /* Optional: if you want round images */
   display: block;
@@ -78,27 +79,40 @@ body {
   width: 100%;
   /* margin-left: 15%;
   margin-right: 15%; */
-  text-align: justify;
+  text-align: left;
 }
 
 .hero-section {
-  
-  /* width: 100%;  */
-  /* height: 500px;   */
+  background-color: white;
   background-image: url('../../assets/images/IMG_6311.jpeg');
   background-size: cover;
-  align-content: center; 
-  /* background-position: center center; */
-  /* background-repeat: no-repeat; */
-  width: 400px;
-  height: 400px;
-  object-fit: cover; 
-  border-radius: 50%;
+  background-position: center;
+  width: 50%; /* Adjust the width as needed */
+  margin: 50px auto;
   display: block;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  background-color: white;
+  box-sizing: border-box;
+  position: relative; /* Needed to position the pseudo-element */
+  border-radius: 50%;
+  overflow: hidden; /* Ensures the content doesn't spill out */
 }
+
+/* This pseudo-element is used to maintain aspect ratio */
+.hero-section::before {
+  content: '';
+  display: block;
+  padding-top: 100%; /* This creates a 1:1 aspect ratio */
+}
+
+/* Media query for devices with a width less than or equal to 600px */
+@media (max-width: 600px) {
+  .hero-section {
+    width: 75%; /* Adjust the width as needed for smaller screens */
+    margin: 25px auto;
+  }
+}
+
+
+
 
 
 
@@ -140,10 +154,10 @@ hr {
   opacity: 0; /* Set initial opacity to 0 for the fade-in effect */
 }
 .about-paragraph{
-  width: 32%;
-  margin-left: 34%;
-  margin-right: 34%;
-  text-align: justify;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: left;
   font-size: 14pt;
   font-weight:400;
   color:darkslategray;
@@ -165,6 +179,7 @@ hr {
 .about-section{
   background-color: white;
   color: darkslategray;
+  
 }
 .projects-section {
   width: 100%;
