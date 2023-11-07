@@ -21,6 +21,44 @@ body {
   margin-left: 1%;
   /* margin-right: 15%; */
 }
+/* App.css */
+
+.footer {
+  text-align: center;
+  padding: 10px 0px;
+  color: #fff; /* White text */
+  font-family: 'Arial', sans-serif; /* Modern font */
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite; /* Animation for the gradient */
+  position: relative;
+}
+
+.footer .nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* This will center your nav items */
+}
+
+.footer .nav-item {
+  margin: 0 15px; /* Adjust spacing as needed */
+}
+
+.footer .social-link {
+  text-decoration: none;
+  color: white; /* Choose a text color that matches your design */
+  font-weight: bold;
+}
+
+/* You may want to add :hover effects for the links */
+.footer .social-link:hover {
+  opacity: 0.7;
+}
+
+
+
 .testimonial-image {
   width: 400px; /* Or any other fixed width */
   height: 400px; /* Or any other fixed height */
@@ -161,20 +199,83 @@ hr {
   width: 100%;
   background-color: white;
 }
-
-
-/* Header Styling */
-header {
-  width: 100%;
+/* Header Styles with Gradient */
+.header {
   text-align: center;
-  text-indent: 1%;
-  /* padding: 20px 0; */
-  /* padding-left: 5%; */
-  font-size: 9pt;
-  /* border-bottom: 1px solid white; white divider */
-  background-color: white;
-  color: darkslategray;
+  padding: 20px;
+  color: white;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
 }
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Navigation Menu Styles */
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 10px; /* Spacing between menu items */
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.nav-item a:hover {
+  background-color: #555; /* Slightly lighter background on hover */
+}
+
+/* Dropdown Content (for Resume) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.nav-item:hover .dropdown-content {
+  display: block;
+}
+
+/* Rest of your CSS... */
+
+
+
+
 
 /* Sections Styling */
 section {
@@ -193,6 +294,6 @@ section:last-of-type {
 footer {
   width: 100%;
   text-align: center;
-  padding: 20px 0;
+  /* padding: 20px 0; */
   /* border-top: 1px solid white; white divider */
 }

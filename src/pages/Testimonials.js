@@ -15,7 +15,9 @@ function Testimonials() {
           <div className="card">
             <img src={dom} alt="Dominique Parrish" className="testimonial-image" />
             <div className="bio">American Freestyle Wrestler, 2022 World Champion</div>
-            <div className="testimonial">Testimonial from Person 1...</div>
+            <div className="testimonial">"Townsends wide range of interests and technical skills gives him the ability to approach problems with a unique perspective. 
+            His development of his wrestling app provided me insights about my wrestling. 
+            I was then able use the information to develop practice plans."</div>
           </div>
 
           <div className="card">
