@@ -1,4 +1,5 @@
 .testimonials-grid {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
     grid-gap: 20px; /* Spacing between the cards */
