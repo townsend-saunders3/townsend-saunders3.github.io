@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9587eb8e.css",
+    "main.js": "/static/js/main.0a8c5930.js",
+    "static/js/787.8f9847ff.chunk.js": "/static/js/787.8f9847ff.chunk.js",
+    "static/media/waterfall.jpeg": "/static/media/waterfall.4357f2bb29915bc24952.jpeg",
+    "static/media/Croatia.jpeg": "/static/media/Croatia.19cadab3412134ac9641.jpeg",
+    "static/media/IMG_6311.jpeg": "/static/media/IMG_6311.199076dd9868704a5fc8.jpeg",
+    "static/media/IMG_5786.jpeg": "/static/media/IMG_5786.312fb80d3cc2a78bd157.jpeg",
+    "static/media/Domly.JPG": "/static/media/Domly.25165aaabe8356abe110.JPG",
+    "static/media/whipp.jpeg": "/static/media/whipp.282d1453d8d63e3c570c.jpeg",
+    "static/media/jason.jpg": "/static/media/jason.d7e9dde6c6f528a480fe.jpg",
+    "static/media/IMG_6290.jpeg": "/static/media/IMG_6290.77ad4a009925a57033ed.jpeg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.9587eb8e.css.map": "/static/css/main.9587eb8e.css.map",
+    "main.0a8c5930.js.map": "/static/js/main.0a8c5930.js.map",
+    "787.8f9847ff.chunk.js.map": "/static/js/787.8f9847ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9587eb8e.css",
+    "static/js/main.0a8c5930.js"
+  ]
+}
