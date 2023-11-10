@@ -23,15 +23,19 @@ function Testimonials() {
           <div className="card">
             <img src={tanatswa} alt="Tanatswa Mapondera" className="testimonial-image"  />
             <div className="bio">Investment Associate at Aligned Climate Capital</div>
-            <div className="testimonial">Testimonial from Person 2...</div>
+            <div className="testimonial">
+            “Townsend and I have been close friends since meeting in college. 
+            I’ve always admired his voracious appetite for learning and improvement, evidenced by successes in the classroom, workplace, sports, and every other facet of his life. 
+            I’ve also come to appreciate his intellectual curiosity and pragmatic approach to problem-solving. 
+            He’s an excellent collaborator and highly efficient at driving towards desirable results.”</div>
           </div>
 
           {/* Repeat the structure for the rest of the testimonials */}
-          <div className="card">
+          {/* <div className="card">
             <img src={jason} alt="Jason Hou" className="testimonial-image"  />
             <div className="bio">PhD student at MIT</div>
             <div className="testimonial">Testimonial from Person 2...</div>
-          </div>
+          </div> */}
         </div>
       </div>
   );
