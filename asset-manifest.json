@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.678e870f.css",
-    "main.js": "/static/js/main.287d66b4.js",
+    "main.js": "/static/js/main.2a653bd8.js",
     "static/js/787.8f9847ff.chunk.js": "/static/js/787.8f9847ff.chunk.js",
     "static/media/waterfall.jpeg": "/static/media/waterfall.4357f2bb29915bc24952.jpeg",
     "static/media/Croatia.jpeg": "/static/media/Croatia.19cadab3412134ac9641.jpeg",
@@ -17,11 +17,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.678e870f.css.map": "/static/css/main.678e870f.css.map",
-    "main.287d66b4.js.map": "/static/js/main.287d66b4.js.map",
+    "main.2a653bd8.js.map": "/static/js/main.2a653bd8.js.map",
     "787.8f9847ff.chunk.js.map": "/static/js/787.8f9847ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.678e870f.css",
-    "static/js/main.287d66b4.js"
+    "static/js/main.2a653bd8.js"
   ]
 }
