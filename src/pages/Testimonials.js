@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import '../assets/styles/Testimonials.css';
 import dom from '../assets/images/IMG_5786.jpeg';
 import tanatswa from '../assets/images/IMG_6290.jpeg'
+import helen from '../assets/images/IMG_6288.JPG'
 import jason from '../assets/images/jason.jpg'
 import '../assets/styles/App.css'; 
 
@@ -31,11 +32,11 @@ function Testimonials() {
           </div>
 
           {/* Repeat the structure for the rest of the testimonials */}
-          {/* <div className="card">
-            <img src={jason} alt="Jason Hou" className="testimonial-image"  />
-            <div className="bio">PhD student at MIT</div>
-            <div className="testimonial">Testimonial from Person 2...</div>
-          </div> */}
+          <div className="card">
+            <img src={helen} alt="Helen Maroulis" className="testimonial-image"  />
+            <div className="bio">2016 Olympic Gold Medalist @ Team USA</div>
+            <div className="testimonial">Townsend is an excellent asset to any team. He is very brilliant in applying all that he’s learned to better the systems and world around him. His analytical skills, intelligence, and empathy have contributed to his growth as a human, teammate, and professional in the field</div>
+          </div>
         </div>
       </div>
   );

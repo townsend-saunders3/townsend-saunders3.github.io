@@ -42,16 +42,15 @@ const AboutMe = () => {
             <div  className= "about-paragraph">
                 <p>
                 Hello, <br /><br />
-                I'm Townsend Saunders III, a data scientist passionate about leveraging technology to make impactful decisions and to solve real-world problems. 
+                I'm Townsend Saunders III, a Data Scientist passionate about leveraging technology to make impactful decisions and to solve real-world problems. 
                 With a background in Engineering Mathematics and Statistics from UC Berkeley, I bring a strong analytical lens to my work, whether it's streamlining inventory management with machine learning or designing real-time anomaly detection systems. 
                 I pride myself on bridging the gap between the technical and business aspects of a project, being the conduit that turns complex data into actionable insights.<br /><br />
 
                 But who am I outside of the tech world? Well, I'm someone who finds joy in imparting knowledge, having been a math tutor for several years. 
-                I'm an ardent soccer enthusiast, both as a player and as a manager, with future aspirations of coaching youth soccer.
-                Outside of work, I delve into ceramics and dream of one day setting up a home studio. <br /><br />
+                I play soccer all the time, and have future aspirations of coaching youth soccer.
+                Outside of work, I enjoy ceramics and dream of one day setting up a home studio. <br /><br />
 
-                I'm currently living in Corvallis, Oregon, embarking on a new chapter of life with my significant other and our two adorable dogs, Ripley and Whipp. 
-                Here, every day is a new adventure and the excitement of establishing ourselves in a new place keeps our spirits high.<br /><br />
+                <br /><br />
 
                 If you think I might be a good fit for your team or you're interested in collaborating, I'd love to hear from you!"
                 </p>
