@@ -42,13 +42,15 @@ const AboutMe = () => {
             <div  className= "about-paragraph">
                 <p>
                 Hello, <br /><br />
-                I'm Townsend Saunders III, a Data Scientist passionate about leveraging technology to make impactful decisions and to solve real-world problems. 
-                With a background in Engineering Mathematics and Statistics from UC Berkeley, I bring a strong analytical lens to my work, whether it's streamlining inventory management with machine learning or designing real-time anomaly detection systems. 
-                I pride myself on bridging the gap between the technical and business aspects of a project, being the conduit that turns complex data into actionable insights.<br /><br />
+                I'm Townsend Saunders III, a Machine Learning specialist passionate about leveraging technology to make impactful decisions and to solve real-world problems. 
+                With a background in Engineering Mathematics and Statistics from UC Berkeley, I bring a strong analytical lens to my work, whether it's deploying ChatBots, streamlining inventory management with machine learning or designing real-time anomaly detection systems. 
+                I pride myself on communicating dense technical topics into easily digestable key points.  I am firm believer in human centered design, which I feel is absoultely critical in today's day and age.  Lastly, I promise to bring creativity to everything my hands touch.  
+                In the rapidly changing world of AI, there is often no blueprint to follow!  Which is why I feel creativity is paramount and will separate the winners from the losers over the next decade. <br /><br />
 
-                But who am I outside of the tech world? Well, I'm someone who finds joy in imparting knowledge, having been a math tutor for several years. 
-                I play soccer all the time, and have future aspirations of coaching youth soccer.
-                Outside of work, I enjoy ceramics and dream of one day setting up a home studio. <br /><br />
+                Outside of work, you'll find me travelling with my Partner Dominique who just made the 2024 Olympic team for women's wrestling (GO TEAM USA!!).  At home I'm a soccer junky, so if you need someone to join your team (or sub) I am your person.  Beyond that, Dominque and I 
+                try to get some nature every weekend with our two dogs.
+                
+                I'm currently looking for work in the Portland and Seattle Metropolitan Area, and of course and am always open to remote work.<br /><br />
 
                 <br /><br />
 
