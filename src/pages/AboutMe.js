@@ -47,14 +47,14 @@ const AboutMe = () => {
                 I pride myself on communicating dense technical topics into easily digestable key points.  I am firm believer in human centered design, which I feel is absoultely critical in today's day and age.  Lastly, I promise to bring creativity to everything my hands touch.  
                 In the rapidly changing world of AI, there is often no blueprint to follow!  Which is why I feel creativity is paramount and will separate the winners from the losers over the next decade. <br /><br />
 
-                Outside of work, you'll find me travelling with my Partner Dominique who just made the 2024 Olympic team for women's wrestling (GO TEAM USA!!).  At home I'm a soccer junky, so if you need someone to join your team (or sub) I am your person.  Beyond that, Dominque and I 
-                try to get some nature every weekend with our two dogs.
+                Outside of work, you'll find me travelling with my partner Dominique who just made the 2024 Olympic team for women's wrestling (GO TEAM USA!!).  At home I'm a soccer junky, so if you need someone to join your team (or sub) I am your person.  Beyond that, I 
+                try to get some nature every weekend with Dom and our two dogs.
                 
                 I'm currently looking for work in the Portland and Seattle Metropolitan Area, and of course and am always open to remote work.<br /><br />
 
                 <br /><br />
 
-                If you think I might be a good fit for your team or you're interested in collaborating, I'd love to hear from you!"
+                If you think I might be a good fit for your team or you're interested in collaborating, I'd love to hear from you!
                 </p>
             </div>
         </div>
