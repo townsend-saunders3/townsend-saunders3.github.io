@@ -8,7 +8,7 @@ function Header() {
       <h1>Townsend Saunders III</h1>
       <ul className="nav-menu">
         <li className="nav-item">
-          <a href="https://github.com/townsend-saunders3">GitHub</a>
+          <a href="https://townly.streamlit.app">ChatBot</a>
         </li>
         <li className="nav-item">
           <a href="https://linkedin.com/in/townsendsaunders3">LinkedIn</a>

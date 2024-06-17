@@ -43,6 +43,8 @@ const Projects = () => {
             {/* <div className="project-sub-split"></div> */}
             <div className="projects-sub-section">
             {/* <hr></hr> */}
+            <h2 className = "project-header">ChatBot</h2>
+            <iframe src="https://townly.streamlit.app/?embed=true" title = 'Chatbot' width="100%" height="600" frameborder="0"></iframe>
             <h2 className = "project-header">Wrestling</h2>
             <iframe src="https://wrestling.streamlit.app/?embed=true" title = 'Wrestling' width="100%" height="600" frameborder="0"></iframe>
             {/* <hr></hr> */}
