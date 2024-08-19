@@ -3,6 +3,9 @@ import '../assets/styles/App.css';
 import domly from '../assets/images/Domly.JPG';
 import croatia from '../assets/images/Croatia.jpeg';
 import whipp from '../assets/images/whipp.jpeg';
+import paris from '../assets/images/IMG_8687.jpeg'
+import soccer from '../assets/images/IMG_8147.jpeg'
+import ceramic from '../assets/images/IMG_5135.jpeg'
 
 const AboutMe = () => {
     const [scrollY, setScrollY] = useState(0);
@@ -22,40 +25,47 @@ const AboutMe = () => {
     }, []);
 
     const calculateOpacity = (ref) => {
-        if (!ref.current) return 0;
-        const imgMidPoint = ref.current.offsetTop + (ref.current.height / 2);
-        const viewportMidPoint = scrollY + (window.innerHeight / 2);
-        const distance = Math.abs(imgMidPoint - viewportMidPoint);
-        const maxDistance = window.innerHeight / 2 + ref.current.height / 2;
-        return 1 - Math.min(distance / maxDistance, 1);
+        // if (!ref.current) return 0;
+        // const imgMidPoint = ref.current.offsetTop + (ref.current.height / 2);
+        // const viewportMidPoint = scrollY + (window.innerHeight / 2);
+        // const distance = Math.abs(imgMidPoint - viewportMidPoint);
+        // const maxDistance = window.innerHeight / 2 + ref.current.height / 2;
+        // return 1 - Math.min(distance / maxDistance, 1);
+        return 1
     };
 
     return (
         <div className="about-section">
-            <h2 className='section-header'>About Me</h2>
-            <div className="about-images">
-                <img ref={imageRef1} style={{opacity: calculateOpacity(imageRef1)}} src={domly} alt="Description 1" className="about-image"/>
-                <img ref={imageRef2} style={{opacity: calculateOpacity(imageRef2)}} src={croatia} alt="Description 2" className="about-image"/>
-                <img ref={imageRef3} style={{opacity: calculateOpacity(imageRef3)}} src={whipp} alt="Description 3" className="about-image"/>
-
+        <h2 className="section-header">About Me</h2>
+        <div className="about-images">
+            <div className="about-image-wrapper">
+                <img ref={imageRef1} style={{opacity: calculateOpacity(imageRef1)}} src={paris} alt="Eiffel Tower in Paris" className="about-image" />
+                <p className="image-caption">Paris Olympics 2024</p>
             </div>
+            <div className="about-image-wrapper">
+                <img ref={imageRef2} style={{opacity: calculateOpacity(imageRef2)}} src={ceramic} alt="Croatia coastline" className="about-image" />
+                <p className="image-caption">Sedona Red Clay Pot</p>
+            </div>
+            <div className="about-image-wrapper">
+                <img ref={imageRef3} style={{opacity: calculateOpacity(imageRef3)}} src={soccer} alt="Playing soccer" className="about-image" />
+                <p className="image-caption">Women's Olympic Soccer Final 2024</p>
+            </div>
+        </div>
+
+
+
+    
             <div  className= "about-paragraph">
                 <p>
                 Hello, <br /><br />
-                I'm Townsend Saunders III, a Machine Learning specialist passionate about leveraging technology to make impactful decisions and to solve real-world problems. 
-                With a background in Engineering Mathematics and Statistics from UC Berkeley, I bring a strong analytical lens to my work, whether it's deploying ChatBots, streamlining inventory management with machine learning or designing real-time anomaly detection systems. 
-                I pride myself on communicating dense technical topics into easily digestable key points.  I am firm believer in human centered design, which I feel is absoultely critical in today's day and age.  Lastly, I promise to bring creativity to everything my hands touch.  
-                In the rapidly changing world of AI, there is often no blueprint to follow!  Which is why I feel creativity is paramount and will separate the winners from the losers over the next decade. <br /><br />
-
-                Outside of work, you'll find me travelling with my partner Dominique who just made the 2024 Olympic team for women's wrestling (GO TEAM USA!!).  At home I'm a soccer junky, so if you need someone to join your team (or sub) I am your person.  Beyond that, I 
-                try to get some nature every weekend with Dom and our two dogs.
-                
-                I'm currently looking for work in the Portland and Seattle Metropolitan Area, and of course and am always open to remote work.<br /><br />
-
+                I'm Townsend Saunders III, a Data Scientist and entrepreneur. I have 4 years experience as a Data Scientist for a Fortune 250 company and a degree in Engineering Mathematics and Statistics from UC Berkeley.  
+                I am also Co-Founder and lead Data Scientist of the fitness brand Adomly.
                 <br /><br />
-
-                If you think I might be a good fit for your team or you're interested in collaborating, I'd love to hear from you!
-                </p>
+                In my free time you can find me outdoors with my 2 dogs, playing soccer, or practicing ceramics.
+                
+                <br /><br />
+                For work opportunities please email me at townsend.saunders3@gmail.com and consider consulting my Chatbot below for any questions you might have.
+                 </p>
             </div>
         </div>
     );

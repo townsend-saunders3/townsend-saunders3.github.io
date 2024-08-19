@@ -5,7 +5,8 @@ const Projects = () => {
     const [displayedCharacters, setDisplayedCharacters] = useState(0);
     const sectionRef = useRef(null);
 
-    const paragraph = "Projects projects projects…  My resume has the descriptions of everything thing you need to know about my professional experience.  So, instead of rehashing, let’s look at some personal endeavors!  Below you will find several streamlit apps I have created over the past year.  Some are more finished than others.  They range from ChatBots, helping women’s wrestlers on TeamUSA, to micronutrient reports on diet, resume helpers, and even budget planners.  Each of these have been spur of the moment passion projects.  All are hosted on Streamlit’s community cloud which is free! Hooray! That also means that lack of activity can cause the app to go dormant… So, if this part of the website is down, I apologize, but just click the button to spin it back up or send me a message!  Feel free to contact me about any of these projects personally if you are interested.  The code is all available on Github!"
+    // const paragraph = "Projects projects projects…  My resume has the descriptions of everything thing you need to know about my professional experience.  So, instead of rehashing, let’s look at some personal endeavors!  Below you will find several streamlit apps I have created over the past year.  Some are more finished than others.  They range from ChatBots, helping women’s wrestlers on TeamUSA, to micronutrient reports on diet, resume helpers, and even budget planners.  Each of these have been spur of the moment passion projects.  All are hosted on Streamlit’s community cloud which is free! Hooray! That also means that lack of activity can cause the app to go dormant… So, if this part of the website is down, I apologize, but just click the button to spin it back up or send me a message!  Feel free to contact me about any of these projects personally if you are interested.  The code is all available on Github!"
+    const paragraph = "Below is my GPT3.5 powered personal assistant.  It knows my resume, work history, and bio as context.  Feel free to play around with it and let me know if you have any feedback!"
     const handleScroll = () => {
         setScrollY(window.scrollY);
     };
@@ -33,7 +34,7 @@ const Projects = () => {
 
     return (
         <div className="projects-section" ref={sectionRef}>
-            <h2 className = "section-header">Projects</h2>
+            <h2 className = "section-header">Chatbot</h2>
             
             <div className="projects-paragraph-section">
                 <p className="projects-description">
@@ -43,18 +44,18 @@ const Projects = () => {
             {/* <div className="project-sub-split"></div> */}
             <div className="projects-sub-section">
             {/* <hr></hr> */}
-            <h2 className = "project-header">ChatBot</h2>
+            {/* <h2 className = "project-header">ChatBot</h2> */}
             <iframe src="https://townly.streamlit.app/?embed=true" title = 'Chatbot' width="100%" height="600" frameborder="0"></iframe>
-            <h2 className = "project-header">Wrestling</h2>
+            {/* <h2 className = "project-header">Wrestling</h2>
             <iframe src="https://wrestling.streamlit.app/?embed=true" title = 'Wrestling' width="100%" height="600" frameborder="0"></iframe>
             {/* <hr></hr> */}
-            <h2 className = "project-header">Budget Helper</h2>
-            <iframe src="https://ts3-live-budget.streamlit.app/?embed=true" title = 'Budget Helper' width="100%" height="600" frameborder="0"></iframe>
+            {/* <h2 className = "project-header">Budget Helper</h2>
+            <iframe src="https://ts3-live-budget.streamlit.app/?embed=true" title = 'Budget Helper' width="100%" height="600" frameborder="0"></iframe> */}
             {/* <hr></hr> */}
-            <h2 className = "project-header">Resume Improver</h2>
-            <iframe src="https://job-ap.streamlit.app/?embed=true" title = 'Resume Improver' width="100%" height="600" frameborder="0"></iframe>
-            <h2 className = "project-header">Health</h2>
-            <iframe src="https://health-nutrient.streamlit.app/?embed=true" title = 'Health' width="100%" height="600" frameborder="0"></iframe>
+            {/* <h2 className = "project-header">Resume Improver</h2>
+            <iframe src="https://job-ap.streamlit.app/?embed=true" title = 'Resume Improver' width="100%" height="600" frameborder="0"></iframe> */}
+            {/* <h2 className = "project-header">Health</h2>
+            <iframe src="https://health-nutrient.streamlit.app/?embed=true" title = 'Health' width="100%" height="600" frameborder="0"></iframe> */}
             </div>
         </div>
     );
