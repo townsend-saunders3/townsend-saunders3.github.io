@@ -15,7 +15,7 @@ function Header() {
         </li>
         <li className="nav-item">
 
-            <a href="townsend_saunders_resume_11_2023.pdf" download="townsend_saunders_3_resume.pdf">Download Resume</a>
+            <a href="Townsend_Saunders_III_Resume_7.0.3" download="townsend_saunders_3_resume.pdf">Download Resume</a>
 
         </li>
       </ul>
