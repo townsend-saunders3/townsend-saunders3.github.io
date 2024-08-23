@@ -6,7 +6,7 @@ const Projects = () => {
     const sectionRef = useRef(null);
 
     // const paragraph = "Projects projects projects…  My resume has the descriptions of everything thing you need to know about my professional experience.  So, instead of rehashing, let’s look at some personal endeavors!  Below you will find several streamlit apps I have created over the past year.  Some are more finished than others.  They range from ChatBots, helping women’s wrestlers on TeamUSA, to micronutrient reports on diet, resume helpers, and even budget planners.  Each of these have been spur of the moment passion projects.  All are hosted on Streamlit’s community cloud which is free! Hooray! That also means that lack of activity can cause the app to go dormant… So, if this part of the website is down, I apologize, but just click the button to spin it back up or send me a message!  Feel free to contact me about any of these projects personally if you are interested.  The code is all available on Github!"
-    const paragraph = "Below is my GPT3.5 powered personal assistant.  It knows my resume, work history, and bio as context.  Feel free to play around with it and let me know if you have any feedback!"
+    const paragraph = "Below is my GPT-4o mini powered personal assistant.  It knows my resume, work history, and bio as context.  Feel free to play around with it and let me know if you have any feedback!"
     const handleScroll = () => {
         setScrollY(window.scrollY);
     };
