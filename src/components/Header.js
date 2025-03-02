@@ -11,7 +11,7 @@ function Header() {
           <a href="https://townly.streamlit.app">ChatBot</a>
         </li>
         <li className="nav-item">
-          <a href="https://linkedin.com/in/townsendsaunders3">LinkedIn</a>
+          <a href="https://github.com/townsend-saunders3" className="social-link github">GitHub</a>
         </li>
         <li className="nav-item">
 

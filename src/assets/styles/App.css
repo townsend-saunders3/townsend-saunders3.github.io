@@ -3,8 +3,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  /* background-color: rgb(249, 255, 184); */
-  /* color: white; */
+  background-color: rgb(249, 255, 184);
+  /* color: black; */
 }
 .projects-paragraph-section{
   width: 90%;
@@ -15,7 +15,7 @@ body {
   
   font-size: 14pt;
   font-weight:400;
-  color:darkslategray;
+  color:white;
 }
 .projects-sub-section{
   width: 98%;
@@ -29,7 +29,7 @@ body {
   padding: 10px 0px;
   color: #fff; /* White text */
   font-family: 'Arial', sans-serif; /* Modern font */
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: black;
   background-size: 400% 400%;
   animation: gradientBG 15s ease infinite; /* Animation for the gradient */
   position: relative;
@@ -83,16 +83,17 @@ body {
 }
 
 .hero-section {
-  background-color: white;
-  background-image: url('../../assets/images/IMG_6311.jpeg');
+  background-color: black;
+  background-image: url('../../background.png');
   background-size: cover;
-  background-position: center top;
-  width: 30%; /* Adjust the width as needed */
-  margin: 50px auto;
+  /* background-position: center top; */
+  width: 100%; /* Adjust the width as needed */
+  max-height: 750px;
+  /* margin: 50px auto; */
   display: block;
   box-sizing: border-box;
-  position: relative; /* Needed to position the pseudo-element */
-  border-radius: 50%;
+  /* position: relative; Needed to position the pseudo-element */
+  /* border-radius: 50%; */
   overflow: hidden; /* Ensures the content doesn't spill out */
 }
 
@@ -164,7 +165,7 @@ hr {
 .image-caption {
   margin-top: 8px;
   font-size: 14px;
-  color: #666;
+  color: white;
 }
 
 .about-paragraph{
@@ -174,7 +175,7 @@ hr {
   text-align: left;
   font-size: 14pt;
   font-weight:400;
-  color:darkslategray;
+  color:white;
 }
 .project-header {
   /* width: 100%; */
@@ -185,23 +186,23 @@ hr {
   text-indent: 2%;
   padding-top: 5px;
   padding-bottom: 5px;
-  color: darkslategray;
+  color: white;
   /* padding: 20px 0; */
   border-bottom: 1px solid white;
 }
 
 .about-section{
-  background-color: white;
-  color: darkslategray;
+  background-color: black;
+  color: white;
   
 }
 .projects-section {
   width: 100%;
-  background-color: white;
+  background-color: black;
   /* margin-left: 15%;
   margin-right: 15%; */
   text-align: left;
-  color:darkslategray;
+  color:white;
   /* padding: 20px 0; */
 
   /* border-bottom: 1px solid white; white divider */
@@ -216,8 +217,8 @@ hr {
   margin-right: 1%;
   /* width: 100%; */
   /* height: 25px;  adjust height as needed */
-  background-color: whitesmoke;
-  color :darkslategray;
+  background-color: black;
+  color :white;
   /* border-bottom: 1px solid white; white divider */
   /* background-color: black;
   color: white; */
@@ -226,14 +227,15 @@ hr {
 
 .testimonials-section{
   width: 100%;
-  background-color: white;
+  background-color: black;
 }
 /* Header Styles with Gradient */
 .header {
   text-align: center;
+  width: 100%;
   padding: 20px;
   color: white;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: black;
   background-size: 400% 400%;
   animation: gradientBG 15s ease infinite;
 }
@@ -301,10 +303,6 @@ hr {
 }
 
 /* Rest of your CSS... */
-
-
-
-
 
 /* Sections Styling */
 section {

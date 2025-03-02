@@ -7,10 +7,10 @@ function Footer() {
     <footer className="footer">
       <ul className="nav-menu">
         <li className="nav-item">
-          <a href="https://github.com/townsend-saunders3" className="social-link github">GitHub</a>
+          <a href="https://townly.streamlit.app" className="social-link github">ChatBot</a>
         </li>
         <li className="nav-item">
-          <a href="https://linkedin.com/in/townsendsaunders3" className="social-link linkedin">LinkedIn</a>
+          <a href="https://github.com/townsend-saunders3" className="social-link github">GitHub</a>
         </li>
         <li className="nav-item">
           <a href="Townsend Saunders Resume Feb.2025.5.pdf" download="townsend_saunders_3_resume.pdf" className="social-link resume">Resume</a>
