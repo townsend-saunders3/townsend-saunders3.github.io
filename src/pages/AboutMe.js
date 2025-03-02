@@ -58,7 +58,7 @@ const AboutMe = () => {
             <div  className= "about-paragraph">
                 <p>
                 Hello, <br /><br />
-                I'm Townsend Saunders III, a Data Scientist and entrepreneur. I have 5 years experience as a Data Scientist, have worked for a Fortune 250 company and posess a degree in Engineering Mathematics and Statistics from UC Berkeley.  
+                I'm Townsend Saunders III, a Data Scientist and entrepreneur. I have 5 years experience as a Data Scientist, have worked for a Fortune 250 company and possess a degree in Engineering Mathematics and Statistics from UC Berkeley.  
                 I also worked on AI Engineering research for the Department of Tresaury.  I am co-Founder and CTO of Tree Ring Design.
                 <br /><br />
                 In my free time you can find me outdoors with my 2 dogs, playing soccer, or practicing ceramics.
