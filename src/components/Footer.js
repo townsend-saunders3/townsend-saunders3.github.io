@@ -13,7 +13,7 @@ function Footer() {
           <a href="https://github.com/townsend-saunders3" className="social-link github">GitHub</a>
         </li>
         <li className="nav-item">
-          <a href="Townsend Saunders Resume Feb.2025.5.pdf" download="townsend_saunders_3_resume.pdf" className="social-link resume">Resume</a>
+          <a href="Townsend Saunders Resume T.ML 1.2.1.pdf" download="townsend_saunders_3_resume.pdf" className="social-link resume">Resume</a>
         </li>
       </ul>
     </footer>
