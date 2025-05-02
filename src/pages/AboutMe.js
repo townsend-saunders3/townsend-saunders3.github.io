@@ -59,7 +59,7 @@ const AboutMe = () => {
                 <p>
                 Hello, <br /><br />
                 I'm Townsend Saunders III, a Machine Learning Engineer and entrepreneur. I have 5 years experience as a ML Engineer, have worked for a Fortune 250 company and possess a degree in Engineering Mathematics and Statistics from UC Berkeley.  
-                I also worked on AI Engineering research for the Department of Tresaury.  I am co-founder and CTO of Tree Ring Design.
+                I also worked on AI Engineering research for the Department of Treasury.
                 <br /><br />
                 In my free time you can find me outdoors with my 2 dogs, playing soccer, or practicing ceramics.
                 
